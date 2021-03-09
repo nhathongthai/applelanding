@@ -360,3 +360,36 @@ img{
     line-height: 16px;
     font-size: 10px;
 }
+.footer{
+    width: 100%;
+    min-width: 1024px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    clear: both;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+
+}
+
+.footer-content ul li a{
+  display: block;
+  color: #288ad6;
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 5px;
+}
+.footer-content ul .ct{
+  display: flex;
+}
+.footer-content ul li p{
+  display: block;
+  padding-top: 5px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #666;
+}
