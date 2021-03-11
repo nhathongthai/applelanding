@@ -543,7 +543,9 @@ img{
   }
 }
 @media screen and (max-width:768px){
-
+  .product-li{
+    width: calc(50% - 20px);
+  }
   .navbar .nav{
     width: 20px;
     height:5px;
@@ -580,6 +582,9 @@ img{
 @media screen and (max-width:650px){
   .container{
     width: 485px;
+}
+.product-li{
+  width: calc(100% - 20px);
 }
 .navbar{
   display: block;

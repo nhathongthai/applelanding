@@ -46,16 +46,26 @@ const img = document.querySelector("#img-color");
 //bắt sự kiện click
 color1.addEventListener("click", function () {
   img.src = "./images/choose1.jpg";
+  autoplay = true;
+  loop = true;
 });
 color2.addEventListener("click", function () {
   img.src = "./images/choose2.jpg";
+  autoplay = true;
+  loop = true;
 });
 color3.addEventListener("click", function () {
   img.src = "./images/choose3.jpg";
+  autoplay = true;
+  loop = true;
 });
 color4.addEventListener("click", function () {
   img.src = "./images/choose4.jpg";
+  autoplay = true;
+  loop = true;
 });
 color5.addEventListener("click", function () {
   img.src = "./images/choose5.jpg";
+  autoplay = true;
+  loop = true;
 });
