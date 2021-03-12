@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
@@ -24,8 +28,8 @@
             </div>
             <div class="navbar"onclick="closeMenu()">
             </div>
-            <div class="contact-fixed">
-              <div class="icon-fl">
+            <div class="contact-fixed" >
+              <div class="icon-fl" id="contact">
                 <ul class="position1">
                   <li>
                     <a class="facebook" href="https://www.facebook.com/Pham.Nghia.Official/" title="facebook">
@@ -58,7 +62,7 @@
                   <a class="animate" href="#full">home</a>
                   <a class="animate" href="#production">product</a>
                   <a class="animate" href="#choose">choose</a>
-                  <a class="animate" href="#">contact</a>
+                  <a class="animate" href="#contact">contact</a>
                   <a class="animate" href="#footer">about</a>
                 </li>
               </ul>
@@ -120,9 +124,9 @@
                       <img id="img-color" src="./images/choose1.jpg" alt="">
                   </div>
                   <div class="choose-phone">
-                      <div class="choose-content">
-                          <h2>What is your choise?</h2>
-                          <p>
+                      <div class="choose-content"> 
+                          <h2 class="animate__animated animate__lightSpeedInLeft">What is your choise?</h2>
+                          <p class=" animate__animated animate__lightSpeedInRight">
                             click in the button to choise color
                           </p>
                         </div>
@@ -143,7 +147,7 @@
       <div class="production" id="production">
         <div class="container">
           <div class="product-fl">
-            <h2>Sản phẩm nổi bật</h2>
+            <h2 class="animate__animated animate__zoomInDown">Sản phẩm nổi bật</h2>
             <div class="product">
               <ul class="product-ul">
                 <li class="product-li">

@@ -36,124 +36,118 @@ img {
   padding: 30px 20px;
   position: relative;
 }
-.header .contact-fixed{
+.header .contact-fixed {
   position: fixed;
   display: block;
   top: 10%;
   right: 1%;
-  
 }
-.header .contact-fixed .icon-fl{
+.header .contact-fixed .icon-fl {
   display: block;
   line-height: 200px;
   font-size: 30px;
-  
 }
-.header  .icon-fl .position1{
+.header .icon-fl .position1 {
   position: relative;
-  width:100%;
-  height:400px;
+  width: 100%;
+  height: 400px;
 }
 
-.header .icon-fl .facebook{
-  color:rgb(12, 87, 226);
+.header .icon-fl .facebook {
+  color: rgb(12, 87, 226);
   position: absolute;
   top: 0;
   right: 0%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
   height: 40px;
   transition: all 0.5s ease-in-out;
 }
-.header .icon-fl .facebook:hover{
+.header .icon-fl .facebook:hover {
   width: 200px;
   height: 50px;
   margin-right: -20px;
   transform: translateX(-10%);
   transition: all 0.5s ease-in-out;
 }
-.header .icon-fl .instagram{
-  color:pink;
+.header .icon-fl .instagram {
+  color: pink;
   position: absolute;
   top: 15%;
   right: 20%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
   height: 40px;
   transition: all 0.5s ease-in-out;
 }
-.header .icon-fl .instagram:hover{
+.header .icon-fl .instagram:hover {
   width: 200px;
   height: 50px;
   margin-right: -20px;
   transform: translateX(-10%);
   transition: all 0.5s ease-in-out;
-
 }
-.header .icon-fl .github{
-  color:black;
+.header .icon-fl .github {
+  color: black;
   position: absolute;
   top: 30%;
   right: 20%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
   height: 40px;
   transition: all 0.5s ease-in-out;
 }
-.header .icon-fl .github:hover{
+.header .icon-fl .github:hover {
   width: 200px;
   height: 50px;
   margin-right: -20px;
   transform: translateX(-10%);
   transition: all 0.5s ease-in-out;
 }
-.header .icon-fl .twitter{
-  color:#288ad6;
+.header .icon-fl .twitter {
+  color: #288ad6;
   position: absolute;
   top: 45%;
   right: 20%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
   height: 40px;
   transition: all 0.5s ease-in-out;
 }
-.header .icon-fl .twitter:hover{
+.header .icon-fl .twitter:hover {
   width: 200px;
   height: 50px;
   margin-right: -20px;
   transform: translateX(-10%);
   transition: all 0.5s ease-in-out;
-
 }
-.header .icon-fl .youtube{
-  color:red;
+.header .icon-fl .youtube {
+  color: red;
   position: absolute;
   top: 60%;
   right: 20%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50px;
   height: 40px;
   transition: all 0.5s ease-in-out;
-  
 }
-.header .icon-fl .youtube:hover{
+.header .icon-fl .youtube:hover {
   width: 200px;
   height: 50px;
   margin-right: -20px;
   transform: translateX(-10%);
   transition: all 0.5s ease-in-out;
 }
-
 
 .logo img {
   width: 50px;
@@ -167,7 +161,6 @@ img {
   clip-path: circle(50% at right top);
   background: linear-gradient(157deg, #ffffff, #c7ced8);
 }
-
 
 .navbar {
   position: absolute;
@@ -198,7 +191,8 @@ img {
   margin: 0 20px;
 }
 .banner-content {
-  width: 40%;z-index: 1;
+  width: 40%;
+  z-index: 1;
 }
 .banner-content p {
   margin: 20px 0;
@@ -604,66 +598,63 @@ img {
   }
   .navbar {
     background-image: url(../images/toggle.svg);
-    line-height:20px;
+    line-height: 20px;
     width: 20px;
     height: 20px;
     z-index: 6;
     margin-right: 20px;
     margin-top: 2px;
-    display:block;
-    
-}
+    display: block;
+  }
 
-.header .active {
-
+  .header .active {
     background: url(../images/close.svg);
     z-index: 6;
     margin-right: 20px;
     color: black;
     flex-direction: column;
-}
-.header .active2{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(157deg, #ffffff, #c7ced8);
-  display: flex ;
-  justify-content: center;
-  align-items: center;
-  z-index: 3;
-
-}
-.nav-links{
-width: 120px;
-height:200px;
-display: block;
-}
-.nav-links li{
-display: block;
-line-height: 35px;
-}
-.menu ul li a{
-margin: 2px;
-font-size: 25px;
-}
-.menu{
-display: none;
-}
-.animate:after{
-  content:"";
-  display: block;
-  width:0;
-  height:3px;
-  background-color: #232323;
-  transition: all 0.5s ease-in-out;
-}
-.animate:hover::after{
-  width:100%;
-  transition: all 0.5s ease-in-out;
-}
-
+  }
+  .header .active2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    max-width: 400px;
+    background: linear-gradient(157deg, #ffffff, #c7ced8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+  }
+  .nav-links {
+    width: 120px;
+    height: 200px;
+    display: block;
+  }
+  .nav-links li {
+    display: block;
+    line-height: 35px;
+  }
+  .menu ul li a {
+    margin: 2px;
+    font-size: 25px;
+  }
+  .menu {
+    display: none;
+  }
+  .animate:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #232323;
+    transition: all 0.5s ease-in-out;
+  }
+  .animate:hover::after {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
 }
 @media screen and (max-width: 1000px) {
   .container {
@@ -687,12 +678,12 @@ display: none;
   .product-li {
     width: calc(50% - 20px);
   }
-  .header{
+  .header {
     display: block;
   }
-  
-
-  
+  .footer-content {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 650px) {
